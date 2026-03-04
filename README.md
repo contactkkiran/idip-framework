@@ -1,3 +1,8 @@
+![Playwright](https://img.shields.io/badge/playwright-testing-green)
+![TypeScript](https://img.shields.io/badge/typescript-framework-blue)
+![Architecture](https://img.shields.io/badge/pattern-intent--driven-orange)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
 # IDIP -- Intent Driven Interaction Pattern
 
 ## Overview
