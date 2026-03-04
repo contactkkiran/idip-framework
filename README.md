@@ -60,7 +60,7 @@ the request.
 
 ------------------------------------------------------------------------
 
-## Architecture
+## Architecture – Intent Driven Execution Model
 
                Test Layer
                     │
@@ -78,6 +78,12 @@ the request.
          Playwright       REST APIs
 
 ------------------------------------------------------------------------
+## Example Workflow
+
+```ts
+await engine.perform("Authenticate")
+await engine.perform("CreateEmployee")
+await engine.perform("ApproveLeave")
 
 ## Key Components
 
