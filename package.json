@@ -1,5 +1,5 @@
 {
-  "name": "@kirankanumuri/idip-framework",
+  "name": "@contactkkiran/idip-framework",
   "version": "1.0.0",
   "description": "Intent Driven Interaction Pattern (IDIP) – A business-centric automation architecture for enterprise testing.",
   "main": "dist/index.js",
