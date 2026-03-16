@@ -1,24 +1,20 @@
 {
-  "name": "@contactkkiran/idip-framework",
-  "version": "1.0.0",
+  "name": "@kirankanumuri/idip-framework",
+  "version": "1.0.8",
   "description": "Intent Driven Interaction Pattern (IDIP) – A business-centric automation architecture for enterprise testing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-
   "files": [
     "dist"
   ],
-
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "playwright test"
   },
-
   "keywords": [
     "automation",
     "testing",
@@ -28,21 +24,16 @@
     "design-patterns",
     "sdet"
   ],
-
   "author": "Kiran Kanumuri",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/contactkkiran/idip-framework.git"
   },
-
   "homepage": "https://github.com/contactkkiran/idip-framework",
-
   "peerDependencies": {
     "@playwright/test": ">=1.0.0"
   },
-
   "devDependencies": {
     "@playwright/test": "^1.42.0",
     "typescript": "^5.0.0"
