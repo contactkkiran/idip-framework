@@ -1,16 +1,33 @@
 {
   "name": "idip-framework",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Intent Driven Interaction Pattern (IDIP) – A business-centric automation architecture for enterprise testing.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "playwright test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "automation",
+    "testing",
+    "playwright",
+    "architecture",
+    "idip",
+    "design-patterns",
+    "sdet"
+  ],
+  "author": "contactkkiran",
+  "license": "MIT",
+  "peerDependencies": {
+    "@playwright/test": ">=1.0.0"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "typescript": "^5.9.3"
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.0.0"
   }
 }
