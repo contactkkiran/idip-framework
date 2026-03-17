@@ -27,7 +27,7 @@ dynamically determines **how it should be executed**.
 
 Install the framework from npm:
 
-npm install @contactkkiran/idip-framework
+npm install @kirankanumuri/idip-framework
 
 Peer dependency:
 
@@ -39,7 +39,7 @@ npm install @playwright/test
 
 Example test using IDIP:
 
-import { IntentEngine } from "@contactkkiran/idip-framework"
+import { IntentEngine } from "@kirankanumuri/idip-framework"
 
 const engine = new IntentEngine()
 
