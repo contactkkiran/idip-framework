@@ -23,34 +23,6 @@ dynamically determines **how it should be executed**.
 ------------------------------------------------------------------------
 
 
-# Installation
-
-Install the framework from npm:
-
-npm install @kirankanumuri/idip-framework
-
-Peer dependency:
-
-npm install @playwright/test
-
-------------------------------------------------------------------------
-
-# Basic Usage
-
-Example test using IDIP:
-
-import { IntentEngine } from "@kirankanumuri/idip-framework"
-
-const engine = new IntentEngine()
-
-await engine.perform("Authenticate")
-await engine.perform("CreateEmployee")
-await engine.perform("ApproveLeave")
-
-The test remains independent of UI or API implementation.
-
-------------------------------------------------------------------------
-
 ## Problem Statement
 
 Large-scale enterprise automation frameworks often face challenges such
