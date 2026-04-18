@@ -7,15 +7,36 @@
 
 ## Overview
 
-IDIP (Intent Driven Interaction Pattern) is an enterprise-oriented
-automation architecture designed to decouple test logic from UI
-structure and execution channels.
+# 🚀 IDIP – Intent Driven Interaction Pattern
 
-Traditional automation frameworks rely heavily on Page Object Model
-(POM) or BDD step definitions. While these approaches help organize
-tests, they often struggle to scale in large enterprise environments
-where business workflows span multiple pages and channels.
+## 🔥 What is IDIP?
 
+IDIP is an **enterprise-grade automation architecture** that transforms test automation from UI-driven scripts into **business-intent-driven workflows**.
+
+Instead of writing tests tied to UI pages, IDIP allows tests to express **what should happen**, while the framework decides **how it should be executed**.
+
+---
+
+## ❗ Problem
+
+Traditional automation frameworks (POM / BDD) struggle at scale:
+
+- Tight coupling with UI → frequent test failures
+- Difficult to switch between UI and API execution
+- Duplicate step definitions
+- Poor visibility of business workflows
+- High maintenance in large enterprise systems
+
+---
+
+## 💡 Solution
+
+IDIP introduces an **Intent Engine + Strategy-based execution model**:
+
+```ts
+await engine.perform("Authenticate")
+await engine.perform("CreateEmployee")
+await engine.perform("ApproveLeave")
 IDIP introduces a **business-intent-driven execution model**, where
 tests describe **what business action should happen**, and the framework
 dynamically determines **how it should be executed**.
